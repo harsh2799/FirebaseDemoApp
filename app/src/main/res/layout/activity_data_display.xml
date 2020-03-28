@@ -6,9 +6,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".DataDisplayActivity">
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="USERS"
+    android:textSize="50dp"
+    android:gravity="center"
+    android:padding="10dp"
+    android:fontFamily="serif-monospace"
+    ></TextView>
 <ListView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/listview"/>
+    android:id="@+id/listview"
+    android:background="#201C1C" />
 </LinearLayout>

@@ -3,17 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ffffff">
+    android:background="#201A1A">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#0f0f0f"
+        android:textColor="#ffffff"
         android:text="HARSH MISHRA"
         android:gravity="center"
         android:id="@+id/tv_raw_list"
         android:layout_marginTop="20dp"
         android:textSize="20sp"
+        android:fontFamily="serif-monospace"
         ></TextView>
 
 </LinearLayout>
